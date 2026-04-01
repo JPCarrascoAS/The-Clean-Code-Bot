@@ -1,5 +1,20 @@
 # "The Clean Code Bot" (Automated Refactorer)
-*Project Goal*: Create a CLI (Command Line Interface) tool that accepts a "dirty" or undocumented code file and returns an optimized version that follows **SOLID principles** and includes comprehensive technical documentation (such as Docstrings or JSDoc).
+
+## Setup
+The application is dockerized (for practice purposes) so please run:
+```
+docker build -t clean-code-bot .
+```
+
+Now you have two approaches, you can run the code using docker commands (too much effort) or use my wrapper script written in bash. Here is how to run this using my wrapper script:
+
+```
+sh code-analizer.sh -i {input_file} -o {output_file}
+```
+
+## Project goal
+
+Create a CLI (Command Line Interface) tool that accepts a "dirty" or undocumented code file and returns an optimized version that follows **SOLID principles** and includes comprehensive technical documentation (such as Docstrings or JSDoc).
 
 ## Step-by-Step Process:
 
